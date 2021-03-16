@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>de.balpha.streamwiggle</id>
+    <name>Stream Wiggle</name>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+    <description>streamwiggle streamwiggle streamwiggle streamwiggle</description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <lang.foldingBuilder language="JAVA" implementationClass="de.balpha.streamwiggle.StreamFoldingBuilder"/>
+    </extensions>
+
+    <depends>com.intellij.java</depends>
+    <actions>
+    </actions>
+</idea-plugin>
